@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-backend",
+  "version": "1.0.0",
+  "description": "Epic Tiktok backend",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=13.x.x",
+    "npm": ">=3.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dawn Abshire",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-mongoose": "^0.1.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.2"
+  }
+}
